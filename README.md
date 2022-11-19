@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Game Hunter (<a href="https://github.com/GHmods">@GHmods</a>)
-- 👀 I’m interested in a game called Sven Co-op.
+- 👀 I’m interested in a game called <a href="https://store.steampowered.com/app/225840/Sven_Coop/">Sven Co-op</a>.
 - 🌱 I’m currently learning AngelScript and GoldSource Engine.
 - 📫 You can reach me at gamehunter.modder@gmail.com
 
