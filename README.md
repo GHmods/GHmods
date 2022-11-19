@@ -16,7 +16,9 @@
 # My Mods:
   * <a href="https://www.moddb.com/mods/half-life-zombie-edition">Half-Life: Zombie Edition</a> port for Sven Co-op.
 
-## <p class="Info1">I hope you like my mods.</p>
+---
+## I hope you like my mods.
+
 <!---
 GHmods/GHmods is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
