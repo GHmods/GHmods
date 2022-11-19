@@ -7,7 +7,7 @@
 
 ## <p class="Info1">I hope you like my mods.</p>
 
-[Profile Picture](/images/gamehunter.png)
+[Profile Picture](/GameHunter.png)
 #### My profile picture is from a game called 'Manhunt' developed by Rockstar North. <a href="https://store.steampowered.com/app/12130/Manhunt/">Buy it!</a>.
 
 ---
