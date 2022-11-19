@@ -14,7 +14,7 @@
 
 ---
 # My Mods:
-![](https://geps.dev/progress/0) <a href="https://www.moddb.com/mods/half-life-zombie-edition">Half-Life: Zombie Edition</a> port for Sven Co-op.
+![](https://geps.dev/progress/0) <a href="https://github.com/GHmods/scze">Half-Life: Zombie Edition port for Sven Co-op</a>.
 
 ---
 ## I hope you like my mods.
