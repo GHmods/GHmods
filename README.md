@@ -5,15 +5,18 @@
 #### I’m currently learning: <a href="https://www.angelcode.com/">`AngelScript`</a> <a href="https://www.amxmodx.org/">`AMX Mod X`</a>
 <br>
 
-## <p class="Info1">I hope you like my mods.</p>
+<picture>
+<img alt="My Profile Picture" src="/GameHunter.png" width="10%">
+</picture>
+<!-- ![Profile Picture](/GameHunter.png) -->
 
-[Profile Picture](/GameHunter.png)
 #### My profile picture is from a game called 'Manhunt' developed by Rockstar North. <a href="https://store.steampowered.com/app/12130/Manhunt/">Buy it!</a>.
 
 ---
 # My Mods:
+  * <a href="https://www.moddb.com/mods/half-life-zombie-edition">Half-Life: Zombie Edition</a> port for Sven Co-op.
 
-
+## <p class="Info1">I hope you like my mods.</p>
 <!---
 GHmods/GHmods is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
