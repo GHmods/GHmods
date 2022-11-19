@@ -14,7 +14,7 @@
 
 ---
 # My Mods:
-  * <a href="https://www.moddb.com/mods/half-life-zombie-edition">Half-Life: Zombie Edition</a> port for Sven Co-op. ![](https://geps.dev/progress/0)
+![](https://geps.dev/progress/0) <a href="https://www.moddb.com/mods/half-life-zombie-edition">Half-Life: Zombie Edition</a> port for Sven Co-op.
 
 ---
 ## I hope you like my mods.
