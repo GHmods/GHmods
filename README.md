@@ -6,7 +6,7 @@
 - 📫 You can reach me at gamehunter.modder@gmail.com
 <br><br>
 
-<a style="color:blue;font-size:300%">I hope you like my mods.</a>
+<a style="color:blue;font-size:300%">I hope you like my mods.<\a>
 
 - My profile picture is from a game called 'Manhunt' developed by Rockstar North. <a href="https://store.steampowered.com/app/12130/Manhunt/">Buy it!</a>.
 <!---
