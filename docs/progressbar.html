@@ -1,19 +1,71 @@
 <!--
     Progress Bar
     ------------
-    Code is from: https://github.com/gepser/markdown-progress/blob/master/progress.html
 -->
-<svg width="90.0" height="20" xmlns="http://www.w3.org/2000/svg">
-      <linearGradient id="a" x2="0" y2="100%%">
-        <stop offset="0" stop-color="#bbb" stop-opacity=".2"/>
-        <stop offset="1" stop-opacity=".1"/>
-      </linearGradient>
-      <rect rx="4" x="0" width="90.0" height="20" fill="{{.BackgroundColor}}"/>
-      <rect rx="4" x="0" width="{{.Progress}}" height="20" fill="{{.PickedColor}}"/>
-      <rect rx="4" width="90.0" height="20" fill="url(#a)"/>
-      <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-        <text x="45.0" y="14">
-          {{.Percentage}}%%
-        </text>
-      </g>
-</svg>
+<head>
+	<style>
+	.barTekst {
+		font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
+		font-size: 11px;
+		color: black;
+		
+		position: relative;
+		top: -35%;
+		left: 50%;
+	}
+	.bar {
+		border-radius: 10px;
+		width:100px;
+		height:20px;
+		background-image: linear-gradient(to top,black,gray);
+	}
+	.progress {
+		border-radius: 15px;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+		width:45px;
+		height:20px;
+		background-image: linear-gradient(to right, yellow 0%, green 100%);
+		color: black;
+		
+		display: flex;
+		justify-content: left;
+		align-items: left;
+		align-content: left;
+	}
+	</style>
+</head>
+
+<body>
+	<div id="bar" class="bar">
+		<b id="progress" class="progress">
+		<p id="progressText" class="barTekst">%percentage%</p>
+		</b>
+	</div>
+	
+	<script>
+		var url = new URL(window.location.href);
+		var Percentage = url.searchParams.get('percentage');
+		//console.log("percentage="+Percentage);
+		
+		var pText = document.getElementById('progressText');
+		pText.innerHTML = Percentage+"%";
+		pText.value = Percentage;
+		
+		var pBar = document.getElementById('progress');
+		pBar.style.width = Percentage;
+		
+		if(Percentage<=15) {
+			var pDiv = document.getElementById('bar');
+			pDiv.style.borderTopLeftRadius = Percentage + "%";
+			pDiv.style.borderBottomLeftRadius = Percentage + "%";
+			//pLoad.style.borderTopRightRadius  = Percentage+" px";
+			//pLoad.style.borderBottomRightRadius  = Percentage+" px";
+		}
+		
+		if(Percentage<=30) pBar.style.backgroundImage = "linear-gradient(to right, black "+Percentage+"%,darkred 100%)";
+		else if(Percentage>30 && Percentage<=45) pBar.style.backgroundImage = "linear-gradient(to right, red 0%, orange 100%)";
+		else if(Percentage>45 && Percentage<=70) pBar.style.backgroundImage = "linear-gradient(to right, orange 0%, yellow 100%)";
+		else if(Percentage>70 && Percentage<=100) pBar.style.backgroundImage = "linear-gradient(to right, yellow 0%, green 100%)";
+	</script>
+</body>
