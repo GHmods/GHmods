@@ -2,41 +2,40 @@
     Progress Bar
     ------------
 -->
-<head>
-	<style>
-	.barTekst {
-		font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
-		font-size: 11px;
-		color: black;
-		
-		position: relative;
-		top: -35%;
-		left: 50%;
-	}
-	.bar {
-		border-radius: 10px;
-		width:100px;
-		height:20px;
-		background-image: linear-gradient(to top,black,gray);
-	}
-	.progress {
-		border-radius: 15px;
-		border-top-left-radius: 10px;
-		border-bottom-left-radius: 10px;
-		width:45px;
-		height:20px;
-		background-image: linear-gradient(to right, yellow 0%, green 100%);
-		color: black;
-		
-		display: flex;
-		justify-content: left;
-		align-items: left;
-		align-content: left;
-	}
-	</style>
-</head>
-
-<body>
+<svg width="100" height="0" xmlns="http://www.w3.org/2000/svg">
+	<head>
+		<style>
+		.barTekst {
+			font-family: DejaVu Sans,Verdana,Geneva,sans-serif;
+			font-size: 11px;
+			color: black;
+			
+			position: relative;
+			top: -35%;
+			left: 50%;
+		}
+		.bar {
+			border-radius: 10px;
+			width:100px;
+			height:20px;
+			background-image: linear-gradient(to top,black,gray);
+		}
+		.progress {
+			border-radius: 15px;
+			border-top-left-radius: 10px;
+			border-bottom-left-radius: 10px;
+			width:45px;
+			height:20px;
+			background-image: linear-gradient(to right, yellow 0%, green 100%);
+			color: black;
+			
+			display: flex;
+			justify-content: left;
+			align-items: left;
+			align-content: left;
+		}
+		</style>
+	</head>
 	<div id="bar" class="bar">
 		<b id="progress" class="progress">
 		<p id="progressText" class="barTekst">%percentage%</p>
@@ -69,3 +68,4 @@
 		else if(Percentage>70 && Percentage<=100) pBar.style.backgroundImage = "linear-gradient(to right, yellow 0%, green 100%)";
 	</script>
 </body>
+</svg>
