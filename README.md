@@ -15,7 +15,7 @@
 
 ---
 # My Mods:
-![40%](https://progress-bar.dev/40) <a href="https://github.com/GHmods/scze">Half-Life: Zombie Edition port for Sven Co-op</a>.
+![90%](https://progress-bar.dev/90) <a href="https://github.com/GHmods/scze">Half-Life: Zombie Edition port for Sven Co-op</a>.
   * [Latest Release](https://github.com/GHmods/scze/releases/latest)
 
 ---
